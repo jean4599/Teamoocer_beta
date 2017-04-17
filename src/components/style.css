@@ -1,0 +1,181 @@
+ body{
+  overflow-y: scroll;
+ }
+ .fullpage{
+  width: 100%;
+  min-height: 75%;
+ }
+ #network-container{
+  position: absolute;
+  margin-left: 10px;
+  height: 630px;
+ }
+  #map-background{
+    position: absolute;
+    width: 800px;
+    height: 630px;
+    z-index: 1;
+    opacity: 0.1;
+  }
+ /*cursor*/
+ #cursor-panel{
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(0,0,0,0); 
+  border: 1px solid lightgray;
+  width: 800px;
+  height: 630px;
+ }
+ .cursor{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  opacity: 0.1
+ }
+ #network{
+  position: absolute;
+  z-index: 3;
+  background-color: rgba(0,0,0,0); 
+  padding-left: 10px;
+  border: 1px solid lightgray;
+  width: 800px;
+  height: 630px;
+ }
+ #network-popUp {
+    display:none;
+    width: 300;
+    z-index: 100;
+    position: absolute;
+    top:300px;
+    left:170px;
+  }
+/*index*/
+  #concept-input{
+    width: 150;
+  }
+  .account-input{
+    width: 320;
+  }
+  .center-container{
+    margin: 10;
+    text-align: center
+  }
+.title {
+  color: #d7ceb2;
+  font: 80px 'BazarMedium';
+  letter-spacing: 8px;
+}
+.slogan{
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+}
+.account-input-container{
+  padding: 10px;
+  text-align: center;
+}
+.account-input-btn{
+  width: 200px;
+  margin: 5px;
+}
+.login-form {
+  max-width: 300px;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+/*common usage*/
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.full-length{
+  width: 100%;
+}
+.half-circle-up{
+     height:100px;
+     width:200px;
+     border-radius: 90px 90px 0 0;
+     -moz-border-radius: 90px 90px 0 0;
+     -webkit-border-radius: 90px 90px 0 0;
+     background:white;
+     text-align: center;
+     vertical-align: middle;
+     line-height: 90px; 
+     margin: auto;
+     margin-buttom: 0px;
+     font-size: 20;
+}
+.half-circle-down{
+     height:100px;
+     width:200px;
+     border-radius: 0 0 90px 90px;
+     -moz-border-radius: 0 0 90px 90px;
+     -webkit-border-radius: 0 0 90px 90px;
+     background:rgba(255, 137, 0, 0.86);
+     text-align: center;
+     vertical-align: middle;
+     line-height: 90px; 
+     margin: auto;
+     font-size: 20;
+}
+/*comfirm card*/
+#toggle-icon{
+  width: 20px;
+  float: right;
+}
+.node{
+  background: #49a9ee;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.link{
+  width:100%;
+  height:3px;
+  background: #f03451;
+  margin: auto; 
+}
+.comfirm-graph{
+  text-align: center;
+}
+.comfirm-graph-container{
+  margin: 10px 0;
+}
+.comfirm-graph-container.graph{
+  height: 8px;
+}
+.message-container{
+  background-color: #f7f7f7;
+  border-radius: 2%;
+  padding: 0 5px;
+  max-height: 150px;
+  overflow-y: scroll; 
+}
+/*chat*/
+.chat-area{
+  position: absolute;
+  width: 250;
+}
+.chat-container{
+  margin: 5px;
+  padding: 5px;
+  height: 550px;
+  border: 1px solid #f7f7f7;
+  background-color: #fcfcfc;
+  border-radius: 2%;
+  overflow-y: scroll;
+}
+.chat-input{
+  margin: 0 5px;
+}
+.info-container{
+  width: 1000px;
+  height: 500px;
+}
